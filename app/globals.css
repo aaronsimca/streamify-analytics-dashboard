@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+::selection {
+  background-color: white;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-accordion .accordion-item {
+  border-bottom: 1px solid #333;
+}
+
+.custom-accordion .accordion-item:last-child {
+  border-bottom: none;
+}
+
+.custom-accordion-trigger:hover {
+  text-decoration: none !important;
+}
+
+.cta-button {
+  color: black;
+  background-color: white;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  color: white;
+  background-color: black;
+  border-color: white;
+}
