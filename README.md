@@ -8,13 +8,11 @@ Streamify Analytics Dashboard is a modern, interactive web application built wit
 - Interactive Data Visualization Charts
 - Sortable and Filterable Data Table
 - Responsive Design
-- 3D Animation using Three.js
 
 ## Technologies Used
 
 - Frontend: Next.js 14, React 18, Tailwind CSS
 - Data Visualization: Chart.js, react-chartjs-2
-- 3D Graphics: Three.js
 - Fonts: Geist Sans and Geist Mono (local fonts)
 
 ## Getting Started
@@ -24,7 +22,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/streamify-analytics-dashboard.git
+   git clone https://github.com/aaronsimca/streamify-analytics-dashboard.git
    cd streamify-analytics-dashboard
    ```
 
